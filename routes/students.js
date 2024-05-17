@@ -16,5 +16,7 @@ router.patch('/', studentController.updateStudent)
 
 router.post('/insert', studentController.insertStudent);
 
+// router.post('/generate-fake-students', studentController.generateFakeStudents);
+
 
 export default router;

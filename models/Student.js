@@ -35,11 +35,8 @@ const Student= mongoose.model('Student',
         },
         phoneNumber:{
             type:String,
-            required:true,
-            validate:{
-                validator:(value)=>value.length===10,
-                message:"Phone number must be 10 digits"
-            }
+            required:true
+
         },
         address:{
             type:String,
